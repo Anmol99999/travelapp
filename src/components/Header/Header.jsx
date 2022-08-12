@@ -1,9 +1,12 @@
-import React from 'react'
+import { AppBar, Toolbar } from "@material-ui/core";
+import React from "react";
 
 const Header = () => {
   return (
-    <div>Header</div>
-  )
-}
+    <AppBar position="static">
+      <Toolbar className={classes.toolbar}></Toolbar>
+    </AppBar>
+  );
+};
 
-export default Header
+export default Header;
